@@ -19,9 +19,9 @@ describe('Voting Poll', () => {
   after(() => td.reset())
 
   describe('when voting', () => {
-    const pollUrl = 'http://www.europeanbestdestinations.com/best-of-europe/european-best-destinations-2017/'
-    const pollId = '9632536'
-    const pollOptionId = '44047129'
+    const pollUrl = 'https://www.app.com/story/sports/high-school/soccer/2019/10/30/nj-girls-soccer-vote-shore-conference-player-week/2503108001/'
+    const pollId = '10445611'
+    const pollOptionId = '48220374'
     const ip = 'my-ip'
     const country = 'my-country'
     const geoip = { ip, country }
