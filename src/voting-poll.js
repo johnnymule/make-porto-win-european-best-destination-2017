@@ -9,9 +9,9 @@ const OPEN_PAGE_TIMEOUT = process.env.OPEN_PAGE_TIMEOUT || 120000
 const EXECUTION_TIMEOUT = process.env.EXECUTION_TIMEOUT || 90000
 const PROXY = process.env.PROXY
 
-const POLLDADDY_POLL_URL = 'http://www.europeanbestdestinations.com/best-of-europe/european-best-destinations-2017/'
-const POLLDADDY_POLL_ID = '9632536'
-const POLLDADDY_POLL_OPTION_ID = '44047129'
+const POLLDADDY_POLL_URL = 'https://www.app.com/story/sports/high-school/soccer/2019/10/30/nj-girls-soccer-vote-shore-conference-player-week/2503108001/'
+const POLLDADDY_POLL_ID = '10445611'
+const POLLDADDY_POLL_OPTION_ID = '48220374'
 
 const _ = require('lodash')
 
