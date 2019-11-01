@@ -51,7 +51,7 @@ class VotingPoll {
         const country = _.lowerCase(geoip.country)
         const emojiFlag = `:flag-${country}: `
 
-        Logger.info(`Voted for Porto from ${ipAddress} ${ipAddress ? 'in ' + emojiFlag : ''} (took ${duration} ms)`)
+        Logger.info(`Voted for Sara from ${ipAddress} ${ipAddress ? 'in ' + emojiFlag : ''} (took ${duration} ms)`)
       })
       .finally(() => Logger.debug('Finished voting'))
   }
